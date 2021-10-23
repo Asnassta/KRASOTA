@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<title>КРАSOTA</title>
 </head>
 <body>
@@ -15,11 +17,11 @@
 						<a class="header__logo" href="/">КРА<span>S</span>OTA</a>
 					</h1>
 					<nav class="header__nav">
-						<a href="#" class="header__link">Преимущества</a>
-						<a href="#" class="header__link">Рабочие места</a>
-						<a href="#" class="header__link">Фотогалерея</a>
-						<a href="#" class="header__link">Новости</a>
-						<a href="#" class="header__link">Контакты</a>
+						<a href="#" class="header__link" data-scroll="advantages">Преимущества</a>
+						<a href="#" class="header__link" data-scroll="work">Рабочие места</a>
+						<a href="#" class="header__link" data-scroll="photogallery">Фотогалерея</a>
+						<a href="#" class="header__link" data-scroll="news">Новости</a>
+						<a href="#" class="header__link" data-scroll="contact">Контакты</a>
 						<a href="tel:+79151743184" class="header__link header__contact">
 							<span>+7 915 174 31 84</span>
 							<img src="assets/images/phone.svg" alt="">
@@ -52,10 +54,471 @@
 					</div>
 				</div>
 			</section>
+			<section class="advantages" id="advantages">
+				<div class="container">
+					<h3 class="title">Почему выбирают нас:</h3>
+					<div class="advantages__inner">
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="assets/images/advantages-icon_1.svg" alt="">
+							</div>
+							<div class="advantages__info">
+								<div class="advantages__title">Удобное расположение</div>
+								<div class="advantages__description">Транспортная доступность, бесплатная парковка</div>
+							</div>
+						</div><!--/advantages__item-->
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="assets/images/advantages-icon_2.svg" alt="">
+							</div>
+							<div class="advantages__info">
+								<div class="advantages__title">Сервис для клиентов</div>
+								<div class="advantages__description">мы также предоставляем: безлимитный  wi-fi, чай и кофе, гардероб</div>
+							</div>
+						</div><!--/advantages__item-->
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="assets/images/advantages-icon_3.svg" alt="">
+							</div>
+							<div class="advantages__info">
+								<div class="advantages__title">Современное оборудование</div>
+								<div class="advantages__description">У нас только качественное и современное оборудование</div>
+							</div>
+						</div><!--/advantages__item-->
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="assets/images/advantages-icon_4.svg" alt="">
+							</div>
+							<div class="advantages__info">
+								<div class="advantages__title">Система лояльности</div>
+								<div class="advantages__description">вы можете приобрести абонементы по специальной цене</div>
+							</div>
+						</div><!--/advantages__item-->
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="assets/images/advantages-icon_5.svg" alt="">
+							</div>
+							<div class="advantages__info">
+								<div class="advantages__title">Почасовая тарификация</div>
+								<div class="advantages__description">Плата за посещение коворкинга рассчитывается исходя из часов</div>
+							</div>
+						</div><!--/advantages__item-->
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="assets/images/advantages-icon_6.svg" alt="">
+							</div>
+							<div class="advantages__info">
+								<div class="advantages__title">Аренда локера</div>
+								<div class="advantages__description">вы сможете хранить свои вещи в шкафчике, к которому прилагается ключ</div>
+							</div>
+						</div><!--/advantages__item-->
+					</div><!--/advantages__inner-->
+				</div>
+			</section><!--/advantages-->
+			<section class="work" id="work">
+				<div class="container container_big">
+					<h3 class="title">Рабочие места:</h3>
+					<div class="work__inner">
+						<div class="work__item">
+							<div class="work__top">
+								<div class="work__header">
+									<div class="work__photo">
+										<img src="assets/images/work-photo_1.png" alt="">
+									</div>
+									<h4 class="work__title">Рабочее место<br> парикмахера</h4>
+								</div>
+								<ul class="work__list">
+									<li>Стул для клиента</li>
+									<li>Моечная для волос</li>
+									<li>Лаборатория</li>
+									<li>Сухожаровой шкаф</li>
+									<li>Стерилизатор</li>
+								</ul>
+							</div>
+							<div class="work__foot">
+								<div class="work__price">от 190 руб/час</div>
+								<a href="#" class="btn">Записаться сейчас</a>
+							</div>
+						</div><!--/work__item-->
+						<div class="work__item">
+							<div class="work__top">
+								<div class="work__header">
+									<div class="work__photo">
+										<img src="assets/images/work-photo_2.png" alt="">
+									</div>
+									<h4 class="work__title">Визажная<br> зона</h4>
+								</div>
+								<ul class="work__list">
+									<li>Гримёрное зеркало</li>
+									<li>Визажный стул</li>
+									<li>Сухожаровой шкаф</li>
+									<li>Стерилизатор</li>
+								</ul>
+							</div>
+							<div class="work__foot">
+								<div class="work__price">от 190 руб/час</div>
+								<a href="#" class="btn">Записаться сейчас</a>
+							</div>
+						</div><!--/work__item-->
+						<div class="work__item">
+							<div class="work__top">
+								<div class="work__header">
+									<div class="work__photo">
+										<img src="assets/images/work-photo_3.png" alt="">
+									</div>
+									<h4 class="work__title">Маникюрная<br> зона</h4>
+								</div>
+								<ul class="work__list">
+									<li>Стул для клиента</li>
+									<li>Моечная для волос</li>
+									<li>Лаборатория</li>
+									<li>Сухожаровой шкаф</li>
+									<li>Стерилизатор</li>
+								</ul>
+							</div>
+							<div class="work__foot">
+								<div class="work__price">от 120 руб/час</div>
+								<a href="#" class="btn">Записаться сейчас</a>
+							</div>
+						</div><!--/work__item-->
+						<div class="work__item">
+							<div class="work__top">
+								<div class="work__header">
+									<div class="work__photo">
+										<img src="assets/images/work-photo_5.png" alt="">
+									</div>
+									<h4 class="work__title">Педикюрная<br> зона</h4>
+								</div>
+								<ul class="work__list">
+									<li>Педикюрное кресло,</li>
+									<li>Регулируемый стул</li>
+									<li>Гибридная LED-лампа</li>
+									<li>Маникюрный пылесос</li>
+									<li>Сухожаровой шкаф</li>
+									<li>Стерилизатор</li>
+									<li>Ванна для ног</li>
+								</ul>
+							</div>
+							<div class="work__foot">
+								<div class="work__price">от 190 руб/час</div>
+								<a href="#" class="btn">Записаться сейчас</a>
+							</div>
+						</div><!--/work__item-->
+						<div class="work__item">
+							<div class="work__top">
+								<div class="work__header">
+									<div class="work__photo">
+										<img src="assets/images/work-photo_5.png" alt="">
+									</div>
+									<h4 class="work__title">Кабинет<br> с кушеткой</h4>
+								</div>
+								<ul class="work__list">
+									<li>Регулируемая кушетка</li>
+									<li>Регулируемый стул</li>
+									<li>Плед для клиентов,</li>
+									<li>Лампа-лупа</li>
+									<li>Сухожаровой шкаф</li>
+									<li>Стерилизатор</li>
+									<li>Одноразовая простынь</li>
+								</ul>
+							</div>
+							<div class="work__foot">
+								<div class="work__price">от 190 руб/час</div>
+								<a href="#" class="btn">Записаться сейчас</a>
+							</div>
+						</div><!--/work__item-->
+					</div><!--/work__inner-->
+				</div>
+			</section>
+			<section class="photogallery" id="photogallery">
+				<div class="container">
+					<h3 class="title">Фотогалерея:</h3>
+				</div>
+				<div class="container-page">
+					<div class="photogallery__inner">
+					<div class="photogallery__slider owl-carousel gallery">
+						<div class="photogallery__slide">
+							<div class="photogallery__item">
+								<img src="assets/images/photogallery_1.png" alt="">
+							 
+							</div>
+						</div><!--/photogallery__slide-->
+						<div class="photogallery__slide">
+							<div class="photogallery__item">
+								<img src="assets/images/photogallery_1.png" alt="">
+							 
+							</div>
+						</div><!--/photogallery__slide-->
+						<div class="photogallery__slide">
+								<div class="photogallery__item">
+								<img src="assets/images/photogallery_1.png" alt="">
+							 
+							</div>
+						</div><!--/photogallery__slide-->
+						<div class="photogallery__slide">
+								<div class="photogallery__item">
+								<img src="assets/images/photogallery_1.png" alt="">
+							 
+							</div>
+						</div><!--/photogallery__slide-->
+						<div class="photogallery__slide">
+								<div class="photogallery__item">
+								<img src="assets/images/photogallery_1.png" alt="">
+							 
+							</div>
+						</div><!--/photogallery__slide-->
+						<div class="photogallery__slide">
+								<div class="photogallery__item">
+								<img src="assets/images/photogallery_1.png" alt="">
+							 
+							</div>
+						</div><!--/photogallery__slide-->
+						 
+					</div><!--/photogallery__slider-->
+				</div><!--/photogallery__inner-->
+				</div>
+		
+			</section><!--/photogallery-->
+			<section class="news" id="news">
+				<div class="container">
+					<h3 class="title">Новости:</h3>
+					<div class="news__inner">
+						<div class="news__arrows slider-arrows">
+							<div class="slider-arrows__arrow slider-arrows__arrow_prev">
+								<img src="assets/images/arrow.svg" alt="">
+							</div>
+							<div class="slider-arrows__arrow slider-arrows__arrow_next">
+								<img src="assets/images/arrow.svg" alt="">
+							</div>
+						</div>
+						<div class="news__slider">
+							<div class="news__slide">
+								<div class="news-box">
+									<div class="news-box__photo">
+										<img src="assets/images/news-photo_1.png" alt="">
+									</div>
+									<div class="news-box__content">
+										<div class="news-box__title">Дарим абонемент на аренду рабочего пространства</div>
+										<div class="news-box__text">
+											Условия участия:
+											<ul class="news-box__list">
+												<li>Подписаться на наш аккаунт⠀</li>
+												<li>В комментарии под этим постом отметить мастера бьюти-индустрии из Лобни</li>
+												<li>Поставить лайк этому посту в Инстаграм</li>
+												<li>Сохранить его себе в избранное, чтобы не потерять</li>
+												<li>Дождаться розыгрыша конкурса 17.09 в 18:00</li>
+											</ul>
+											<p>Чем больше комментариев, тем больше шансов выиграть главный приз.</p>
+											<p>Важно, чтобы мастера не повторялись!</p>
+											Подарки:
+											<ul>
+												<li>1.Главный приз: абонемент на аренду 1 смены (12 часов) рабочего места или кабинета</li>
+												<li>2.Гарантированные призы: целых +2 часа аренды рабочего пространства (использовать можно до 01.11.2021 года)</li>
+											</ul>
+											<p><span>Розыгрыш</span> пройдёт 17 сентября в 18:00  в при помощи генератора случайных чисел.</p>
+											<p>Желаем всем удачи!</p>
+											<p>Главный приз (аренда смены в бьюти-коворкинге предоставляется сразу на 12 часов, почасово не делится.</p>
+										</div>
+									</div>
+								</div><!--/news-box-->
+							</div><!--/news__slide-->
+							<div class="news__slide">
+								<div class="news-box">
+									<div class="news-box__photo">
+										<img src="assets/images/news-photo_1.png" alt="">
+									</div>
+									<div class="news-box__content">
+										<div class="news-box__title">Дарим абонемент на аренду рабочего пространства</div>
+										<div class="news-box__text">
+											Условия участия:
+											<ul class="news-box__list">
+												<li>Подписаться на наш аккаунт⠀</li>
+												<li>В комментарии под этим постом отметить мастера бьюти-индустрии из Лобни</li>
+												<li>Поставить лайк этому посту в Инстаграм</li>
+												<li>Сохранить его себе в избранное, чтобы не потерять</li>
+												<li>Дождаться розыгрыша конкурса 17.09 в 18:00</li>
+											</ul>
+											<p>Чем больше комментариев, тем больше шансов выиграть главный приз.</p>
+											<p>Важно, чтобы мастера не повторялись!</p>
+											Подарки:
+											<ul>
+												<li>1.Главный приз: абонемент на аренду 1 смены (12 часов) рабочего места или кабинета</li>
+												<li>2.Гарантированные призы: целых +2 часа аренды рабочего пространства (использовать можно до 01.11.2021 года)</li>
+											</ul>
+											<p><span>Розыгрыш</span> пройдёт 17 сентября в 18:00  в при помощи генератора случайных чисел.</p>
+											<p>Желаем всем удачи!</p>
+											<p>Главный приз (аренда смены в бьюти-коворкинге предоставляется сразу на 12 часов, почасово не делится.</p>
+										</div>
+									</div>
+								</div><!--/news-box-->
+							</div><!--/news__slide-->
+							<div class="news__slide">
+								<div class="news-box">
+									<div class="news-box__photo">
+										<img src="assets/images/news-photo_1.png" alt="">
+									</div>
+									<div class="news-box__content">
+										<div class="news-box__title">Дарим абонемент на аренду рабочего пространства</div>
+										<div class="news-box__text">
+											Условия участия:
+											<ul class="news-box__list">
+												<li>Подписаться на наш аккаунт⠀</li>
+												<li>В комментарии под этим постом отметить мастера бьюти-индустрии из Лобни</li>
+												<li>Поставить лайк этому посту в Инстаграм</li>
+												<li>Сохранить его себе в избранное, чтобы не потерять</li>
+												<li>Дождаться розыгрыша конкурса 17.09 в 18:00</li>
+											</ul>
+											<p>Чем больше комментариев, тем больше шансов выиграть главный приз.</p>
+											<p>Важно, чтобы мастера не повторялись!</p>
+											Подарки:
+											<ul>
+												<li>1.Главный приз: абонемент на аренду 1 смены (12 часов) рабочего места или кабинета</li>
+												<li>2.Гарантированные призы: целых +2 часа аренды рабочего пространства (использовать можно до 01.11.2021 года)</li>
+											</ul>
+											<p><span>Розыгрыш</span> пройдёт 17 сентября в 18:00  в при помощи генератора случайных чисел.</p>
+											<p>Желаем всем удачи!</p>
+											<p>Главный приз (аренда смены в бьюти-коворкинге предоставляется сразу на 12 часов, почасово не делится.</p>
+										</div>
+									</div>
+								</div><!--/news-box-->
+							</div><!--/news__slide-->
+							<div class="news__slide">
+								<div class="news-box">
+									<div class="news-box__photo">
+										<img src="assets/images/news-photo_1.png" alt="">
+									</div>
+									<div class="news-box__content">
+										<div class="news-box__title">Дарим абонемент на аренду рабочего пространства</div>
+										<div class="news-box__text">
+											Условия участия:
+											<ul class="news-box__list">
+												<li>Подписаться на наш аккаунт⠀</li>
+												<li>В комментарии под этим постом отметить мастера бьюти-индустрии из Лобни</li>
+												<li>Поставить лайк этому посту в Инстаграм</li>
+												<li>Сохранить его себе в избранное, чтобы не потерять</li>
+												<li>Дождаться розыгрыша конкурса 17.09 в 18:00</li>
+											</ul>
+											<p>Чем больше комментариев, тем больше шансов выиграть главный приз.</p>
+											<p>Важно, чтобы мастера не повторялись!</p>
+											Подарки:
+											<ul>
+												<li>1.Главный приз: абонемент на аренду 1 смены (12 часов) рабочего места или кабинета</li>
+												<li>2.Гарантированные призы: целых +2 часа аренды рабочего пространства (использовать можно до 01.11.2021 года)</li>
+											</ul>
+											<p><span>Розыгрыш</span> пройдёт 17 сентября в 18:00  в при помощи генератора случайных чисел.</p>
+											<p>Желаем всем удачи!</p>
+											<p>Главный приз (аренда смены в бьюти-коворкинге предоставляется сразу на 12 часов, почасово не делится.</p>
+										</div>
+									</div>
+								</div><!--/news-box-->
+							</div><!--/news__slide-->
+							<div class="news__slide">
+								<div class="news-box">
+									<div class="news-box__photo">
+										<img src="assets/images/news-photo_1.png" alt="">
+									</div>
+									<div class="news-box__content">
+										<div class="news-box__title">Дарим абонемент на аренду рабочего пространства</div>
+										<div class="news-box__text">
+											Условия участия:
+											<ul class="news-box__list">
+												<li>Подписаться на наш аккаунт⠀</li>
+												<li>В комментарии под этим постом отметить мастера бьюти-индустрии из Лобни</li>
+												<li>Поставить лайк этому посту в Инстаграм</li>
+												<li>Сохранить его себе в избранное, чтобы не потерять</li>
+												<li>Дождаться розыгрыша конкурса 17.09 в 18:00</li>
+											</ul>
+											<p>Чем больше комментариев, тем больше шансов выиграть главный приз.</p>
+											<p>Важно, чтобы мастера не повторялись!</p>
+											Подарки:
+											<ul>
+												<li>1.Главный приз: абонемент на аренду 1 смены (12 часов) рабочего места или кабинета</li>
+												<li>2.Гарантированные призы: целых +2 часа аренды рабочего пространства (использовать можно до 01.11.2021 года)</li>
+											</ul>
+											<p><span>Розыгрыш</span> пройдёт 17 сентября в 18:00  в при помощи генератора случайных чисел.</p>
+											<p>Желаем всем удачи!</p>
+											<p>Главный приз (аренда смены в бьюти-коворкинге предоставляется сразу на 12 часов, почасово не делится.</p>
+										</div>
+									</div>
+								</div><!--/news-box-->
+							</div><!--/news__slide-->
+						</div><!--/news__slider-->
+					</div>
+				</div>
+			</section><!--/news-->
+			<section class="consult">
+				<div class="container">
+					<div class="consult__inner">
+						<h3 class="consult__title">Закажите консультацию</h3>
+						<div class="consult__subtitle">Мы с радостью ответим на все ваши вопросы</div>
+						<form action="#" class="consult__form">
+							<input type="text" placeholder="Ваше имя">
+							<input type="text" placeholder="Ваш телефон">
+							<button type="submit" class="btn">Отправить</button>
+							<div class="consult__agree">Нажимая на кнопку, вы соглашаетесь<br> с <a href="#">Политикой конфиденциальности</a></div>
+						</form>
+					</div>
+				</div>
+			</section><!--/consult-->
+			<section class="contact" id="contact">
+				<div class="container">
+					<h3 class="title">Как нас найти</h3>
+					<div class="contact__inner">
+						<div class="contact__map">
+							<img src="assets/images/map.png" alt="">
+						</div>
+						<div class="contact-box">
+							<div class="contact-box__addres">
+								<div>г. Лобня,</div>
+								<div>ул. Краснополянская 20, </div>
+							</div>
+							<a href="tel:+79151743184" class="contact-box__phone">+7 915 174 31 84</a>
+							<a href="#" class="contact-box__whatsapp">
+								<img src="assets/images/phone.svg" alt="">
+								<span>Написать в Whatsapp</span>
+							</a>
+							<a href="#" class="btn">Перезвоните мне</a>
+						</div><!--/contact-box-->
+					</div>
+				</div>
+			</section>
 		</main>
+		<footer class="footer">
+			<div class="container container_big">
+				<div class="footer__inner">
+					<h2><a class="footer__logo" href="/">КРА<span>S</span>OTA</a></h2>
+					<nav class="footer__nav">
+						<a href="#" class="footer__link" data-scroll="advantages">Преимущества</a>
+						<a href="#" class="footer__link" data-scroll="work">Рабочие места</a>
+						<a href="#" class="footer__link" data-scroll="photogallery">Фотогалерея</a>
+						<a href="#" class="footer__link" data-scroll="news">Новости</a>
+						<a href="#" class="footer__link" data-scroll="contact">Контакты</a>
+						<a href="tel:+79151743184" class="footer__link footer__contact">
+							<span>+7 915 174 31 84</span>
+							<img src="assets/images/phone.svg" alt="">
+						</a>
+					</nav>
+				</div>
+			</div>
+			<div class="footer-foot">
+				<div class="container container_big">
+					<div class="footer-foot__inner">
+						<div>2021. Все права защищены </div>
+						<div>
+							<a href="#">Соглашение об обработке персональных данных</a>
+						</div>
+						<div>
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</div>
-	
+
 	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="assets/js/script.js"></script>
 </body>
 </html>
